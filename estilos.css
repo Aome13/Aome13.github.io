@@ -1,0 +1,56 @@
+html, body {
+    background-color: darkorchid;
+    height:100%;
+    margin: 0;
+    font-family: 'Amita', cursive;
+}
+
+.red {
+    color: rebeccapurple;
+}
+
+.blue {
+    color: palevioletred;
+}
+
+.pink {
+    color: gold;
+}
+.fondo {
+    height:100%;
+    margin-top:-1.3em;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+    html {
+    background-color:black;
+    
+}  
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: aliceblue;
+    width:70%;
+    
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
